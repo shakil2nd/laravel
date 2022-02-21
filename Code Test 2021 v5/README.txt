@@ -23,6 +23,10 @@ What I expect in your repo:
 
 X. A readme with:   Your thoughts about the code. What makes it amazing code. Or what makes it ok code. Or what makes it terrible code. How would you have done it. Thoughts on formatting, structure, logic.. The more details that you can provide about the code (what's terrible about it or/and what is good about it) the easier for us to assess your coding style, mentality etc
 
+Ans: I have checked the code and my finding is calling repository in controller is ok but it is not the best practice. What is bad in that call ing model in controller. Since we do all calling from repository and repo calling the model.
+
+I have created a services. Now controller calling the services and services futher calling  to repository.
+
 And 
 
 Y.  Refactor it if you feel it needs refactoring. The more love you put into it. The easier for us to asses your thoughts, code principles etc

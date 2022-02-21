@@ -2,10 +2,10 @@
 
 namespace DTApi\Repository;
 
-use Validator;
+use App\Exceptions\ValidationException;
 use Illuminate\Database\Eloquent\Model;
-use DTApi\Exceptions\ValidationException;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
+use Validator;
 
 class BaseRepository
 {
